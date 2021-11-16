@@ -14,7 +14,7 @@ const getURI = async function(requestEvent: any) {
 
 const renderPage = async function(requestEvent: any) {
     await requestEvent.respondWith(
-        new Response("hello world", {
+        new Response("teste", {
             status: 200,
         })
     );
